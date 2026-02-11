@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Heart, Sparkles, Gift } from 'lucide-react'; // Tambah icon Gift
-import './Valentine.css'; 
+import './valentine.css'; 
 
 export default function Valentine() {
   const [noClickCount, setNoClickCount] = useState(0);
